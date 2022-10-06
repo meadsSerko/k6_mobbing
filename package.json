@@ -1,0 +1,12 @@
+{
+  "name": "k6_mobbing",
+  "version": "1.0.0",
+  "description": "example of using K6",
+  "main": "index.js",
+  "scripts": {
+    "test": "@powershell cat ./src/example1.js | docker run --rm -i grafana/k6 run -"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
